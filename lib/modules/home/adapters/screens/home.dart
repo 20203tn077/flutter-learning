@@ -22,6 +22,12 @@ class Home extends StatelessWidget {
             },
             child: const Text('Acerca de nosotros')
           ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed('/home/register');
+            },
+            child: const Text('Registro')
+          ),
         ],
         )),
     );

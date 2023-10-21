@@ -7,16 +7,12 @@ class About extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Acerca de nosotros')),
-      body: Row(
+      body: Column(
         children: [
-          Column(
-            children: [
-              Container(
-                padding: const EdgeInsets.all(16),
-                color: const Color.fromARGB(255, 140, 0, 255),
-                child: const Text('Rebecca Alitzel'),
-              ),
-            ],
+          Container(
+            padding: const EdgeInsets.all(16),
+            color: const Color.fromARGB(255, 140, 0, 255),
+            child: const Text('Rebecca Alitzel'),
           ),
         ],
       )

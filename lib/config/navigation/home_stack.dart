@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_learning/modules/home/adapters/screens/about.dart';
 import 'package:flutter_learning/modules/home/adapters/screens/grid.dart';
 import 'package:flutter_learning/modules/home/adapters/screens/home.dart';
+import 'package:flutter_learning/modules/home/adapters/screens/register.dart';
 
 class HomeStack extends StatelessWidget {
   const HomeStack({super.key});
@@ -15,6 +16,7 @@ class HomeStack extends StatelessWidget {
         '/home':(context) => const Home(),
         '/home/grid':(context) => const Grid(),
         '/home/about':(context) => const About(),
+        '/home/register':(context) => const Register(),
       }
     );
   }

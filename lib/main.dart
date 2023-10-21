@@ -3,7 +3,6 @@ import 'package:flutter_learning/config/navigation/home_stack.dart';
 import 'package:flutter_learning/kernel/widgets/bottom_navigation_tab.dart';
 import 'package:flutter_learning/kernel/widgets/splash.dart';
 import 'package:flutter_learning/modules/auth/adapters/screens/profile.dart';
-import 'package:flutter_learning/modules/home/adapters/screens/home.dart';
 import 'package:flutter_learning/modules/settings/adapters/screens/settings.dart';
 
 void main() {
