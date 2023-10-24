@@ -12,9 +12,11 @@ class BottomNavigationTab extends StatelessWidget {
       BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Inicio'),
       BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Perfil'),
       BottomNavigationBarItem(icon: Icon(Icons.settings), label: 'Configuración'),
+      BottomNavigationBarItem(icon: Icon(Icons.newspaper), label: 'Noticias'),
     ],
     currentIndex: selectedIndex,
-    selectedItemColor: ColorsApp.primaryColor,
+    selectedItemColor: ColorsApp.primary,
+    unselectedItemColor: Color.fromARGB(255, 82, 90, 112),
     onTap: onItemTap,
     );
   }
