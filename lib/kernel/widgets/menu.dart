@@ -3,7 +3,7 @@ import 'package:flutter_learning/config/navigation/home_stack.dart';
 import 'package:flutter_learning/config/navigation/news_stack.dart';
 import 'package:flutter_learning/kernel/widgets/bottom_navigation_tab.dart';
 import 'package:flutter_learning/modules/auth/adapters/screens/profile.dart';
-import 'package:flutter_learning/modules/settings/adapters/screens/settings.dart';
+import 'package:flutter_learning/modules/shop/adapters/screens/shop.dart';
 
 class Menu extends StatefulWidget{
   const Menu({super.key});
@@ -25,7 +25,7 @@ class _MenuState extends State<Menu> {
     return Scaffold(
       body: IndexedStack(
         index: _selectedIndex,
-        children: const [HomeStack(), Profile(), Settings(), NewsStack()],
+        children: const [HomeStack(), Profile(), Shop(), NewsStack()],
       ),
       bottomNavigationBar: BottomNavigationTab(selectedIndex: _selectedIndex, onItemTap: _onItemTap),
       

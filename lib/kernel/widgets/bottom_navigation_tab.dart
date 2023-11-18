@@ -11,7 +11,7 @@ class BottomNavigationTab extends StatelessWidget {
     return BottomNavigationBar(items: const <BottomNavigationBarItem>[
       BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Inicio'),
       BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Perfil'),
-      BottomNavigationBarItem(icon: Icon(Icons.settings), label: 'Configuración'),
+      BottomNavigationBarItem(icon: Icon(Icons.store_mall_directory_outlined), label: 'Tienda'),
       BottomNavigationBarItem(icon: Icon(Icons.newspaper), label: 'Noticias'),
     ],
     currentIndex: selectedIndex,
